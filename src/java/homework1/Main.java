@@ -1,3 +1,5 @@
+package homework1;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -15,7 +17,7 @@ public class Main {
         double price = 55.5;
         double tax = 22.3;
         int quantity = 10;
-        double total = 0;
+        double total;
         String message = "I want to by " + quantity + " shirt";
         System.out.println(message);
         total = price * quantity * tax;
